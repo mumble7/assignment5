@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@import '~ngx-toastr/toastr';
+
+.quotes-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.quotes-card{
+    margin: 10px;
+
+}
+
+.ng-invalid .ng-star-inserted{
+    color:red;
+}
