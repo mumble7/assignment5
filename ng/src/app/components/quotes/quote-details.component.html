@@ -1,0 +1,38 @@
+<div class="container">
+  
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">{{ quote.quote }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ quote.author }}</h6>
+            <p class="card-text">{{ quote.id }}</p>
+            <p class="card-text">{{ quote.source }}</p>
+            <p class="card-text">{{ quote.topic }}</p>
+            <p class="card-text">{{ added_at }}</p>
+            <p class="card-text">{{ updated_at }}</p>
+            <div>
+                <a routerLink="/quotes/{{ quote.id }}/edit" class="btn btn-success float-right">EDIT</a>
+                <a (click)="toggleConfirmDelete()" class="btn btn-danger">DELETE</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="deleteModal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Delete Confirmation</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="toggleConfirmDelete">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Are you sure you want to delete {{ quote.quote }}?</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" (click)="deleteQuote(quote)">DELETE</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="toggleConfirmDelete">CANCEL</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>

@@ -4,15 +4,14 @@ import { NgModule } from '@angular/core';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app.component';
-import { QuotesComponent } from './components/quotes.component';
-import { QuoteComponent } from './components/quote.component';
+import { QuotesComponent } from './components/quotes/quotes.component';
+import { QuoteComponent } from './components/quotes/quote.component';
 import { RouterModule } from '@angular/router';
 import { routes } from './routes';
-import { QuoteDetailsComponent } from './components/quote-details.component';
-import { QuoteFormComponent } from './components/quote-form.component';
+import { QuoteDetailsComponent } from './components/quotes/quote-details.component';
+import { QuoteFormComponent } from './components/quotes/quote-form.component';
 import { CommonModule } from '@angular/common';
 import { InMemoryQuoteDBService } from './services/in-memory-quote-db.service';
 import { HttpClientModule } from '@angular/common/http'

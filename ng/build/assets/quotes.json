@@ -1,0 +1,92 @@
+[
+  {
+    "quote": "We build our computers the way we build our cities: over time, without a plan, on top of ruins.",
+    "id": 1,
+    "author": "Ellen Ullman",
+    "source": "Book Name",
+    "Topic": "Funny, Politics, philosophy",
+    "added_at": 2012.04,
+    "updated_at": 2012.04
+  },
+  {
+    "quote": "What one programmer can do in one month, two programmers can do in two months.",
+    "id": 2,
+    "author": "Fred Brooks",
+    "source": "Book Name",
+    "Topic": "Funny, Politics, philosophy",
+    "added_at": 2012.04,
+    "updated_at": 2012.04
+  },
+  {
+    "quote": "Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.",
+    "id": 3,
+    "author": "Patrick McKenzie",
+    "source": "Book Name",
+      "Topic": "Funny, Politics, philosophy",
+      "added_at": 2012.04,
+      "updated_at": 2012.04
+  },
+  {
+    "quote": "A primary cause of complexity is that software vendors uncritically adopt almost any feature that users want.",
+    "id": 4,
+    "author": "Niklaus Wirth",
+    "source": "Book Name",
+      "Topic": "Funny, Politics, philosophy",
+      "added_at": 2012.04,
+      "updated_at": 2012.04
+  },
+  {
+    "quote": "No one in the brief history of computing has ever written a piece of perfect software. It's unlikely that you'll be the first.",
+    "id": 5,
+    "author": "Andy Hunt",
+    "source": "Book Name",
+      "Topic": "Funny, Politics, philosophy",
+      "added_at": 2012.04,
+      "updated_at": 2012.04
+  },
+  {
+    "quote": "Java is to JavaScript as ham is to hamster.",
+    "id": 6,
+    "author": "Jeremy Keith",
+    "source": "Book Name",
+      "Topic": "Funny, Politics, philosophy",
+      "added_at": 2012.04,
+      "updated_at": 2012.04
+  },
+  {
+    "quote": "One of the best programming skills you can have is knowing when to walk away for awhile.",
+    "id": 7,
+    "author": "Oscar Godson",
+    "source": "Book Name",
+      "Topic": "Funny, Politics, philosophy",
+      "added_at": 2012.04,
+      "updated_at": 2012.04
+  },
+  {
+    "quote": "Without requirements or design, programming is the art of adding bugs to an empty text file.",
+    "id": 8,
+    "author": "Louis Srygley",
+    "source": "Book Name",
+      "Topic": "Funny, Politics, philosophy",
+      "added_at": 2012.04,
+      "updated_at": 2012.04
+  },
+  {
+    "quote": "A computer lets you make more mistakes faster than any other invention in human history, with the possible exception of handguns and Tequila.",
+    "id": 9,
+    "author": "Mitch Ratcliffe",
+    "source": "Book Name",
+      "Topic": "Funny, Politics, philosophy",
+      "added_at": 2012.04,
+      "updated_at": 2012.04
+  },
+  {
+    "quote": "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
+    "id": 10,
+    "author": "John Woods",
+    "source": "Book Name",
+      "Topic": "Funny, Politics, philosophy",
+      "added_at": 2012.04,
+      "updated_at": 2012.04
+  }
+]
