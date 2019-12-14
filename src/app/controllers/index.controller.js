@@ -1,12 +1,12 @@
-// import express from "express"
-// export let router = express.Router();
+import express from "express"
+export let router = express.Router();
 
-// /* GET home page. */
-// router.get('/', (req, res, next) => {
-//   res.render('index', { title: 'Quotes' })
-// })
+/* GET home page. */
+router.get('/', (req, res, next) => {
+  res.render('index', { title: 'Quotes' })
+})
 
-import { Quote } from '../models/schema'
+import { Quote } from '../models/quotes'
 
 /* GET home page. */
 export const indexPage = (req, res, next) => {

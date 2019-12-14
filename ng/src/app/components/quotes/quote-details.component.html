@@ -10,8 +10,8 @@
             <p class="card-text">{{ added_at }}</p>
             <p class="card-text">{{ updated_at }}</p>
             <div>
-                <a routerLink="/quotes/{{ quote.id }}/edit" class="btn btn-success float-right">EDIT</a>
-                <a (click)="toggleConfirmDelete()" class="btn btn-danger">DELETE</a>
+                <a routerLink="/quotes/{{ quote.id }}/edit" type="button" class="btn btn-primary float-right">EDIT</a>
+                <a (click)="toggleConfirmDelete()" type="button" class="btn btn-danger">DELETE</a>
             </div>
         </div>
     </div>

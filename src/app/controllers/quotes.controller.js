@@ -1,4 +1,4 @@
-import { Quote } from '../models/schema'
+import { Quote } from '../models/quotes'
 
 export const allQuotesAPI = (req, res, next) => {
   Quote.find().select('-author -__v -source').exec((err, quotes) => {

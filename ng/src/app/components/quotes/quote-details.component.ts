@@ -29,9 +29,9 @@ export class QuoteDetailsComponent implements OnInit{
     }
     /*
     ngOnInit(): void {
-        this.movie$ = this.route.paramMap.pipe(
+        this.quote$ = this.route.paramMap.pipe(
             switchMap((params: ParamMap) => 
-                this.moviesService.getMovie(params.get('id'))
+                this.quotesService.getQuote(params.get('id'))
             )
         )
     }

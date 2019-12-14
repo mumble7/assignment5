@@ -17,8 +17,8 @@ export function configureRoutes(app){
     router.delete('/api/quotes/:id', deleteQuoteAPI)
 
     //user
-    router.post('/api/users/register', registerUserAPI)
-    router.post('/api/users/signin', signUserInAPI)
+    // router.post('/api/users/register', registerUserAPI)
+    // router.post('/api/users/signin', signUserInAPI)
 
     app.use('/', router)
 }
